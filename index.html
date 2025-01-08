@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elegance Interiors - Luxury Interior Design in Lucknow</title>
+        
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+<body class="font-[Inter] bg-white">
+    <!-- Social Links Bar -->
+    <div class="bg-[#fb999b] text-white py-2">
+        <div class="container mx-auto px-4 flex justify-end items-center space-x-4">
+            <a href="#" class="hover:text-[#0b00f5] transition-colors">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+            <a href="#" class="hover:text-[#0f0a0b] transition-colors">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="#" class="hover:text-[#f5000b] transition-colors">
+                <i class="fab fa-youtube"></i> YouTube
+            </a>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-semibold text-[#8b7355]">Elegance Interiors</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-600 hover:text-[#0b00f5]">Home</a>
+                    <a href="#services" class="text-gray-600 hover:text-[#0b00f5]">Services</a>
+                    <a href="#portfolio" class="text-gray-600 hover:text-[#0b00f5]">Portfolio</a>
+                    <a href="#about" class="text-gray-600 hover:text-[#0b00f5]">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen">
+        <div class="absolute inset-0 bg-[url('hero.jpg')] bg-cover bg-center"></div>
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="relative container mx-auto px-4 h-full flex items-center">
+            <div class="text-white max-w-2xl">
+                <h1 class="text-5xl font-bold mb-6">Transform Your Space Into a Masterpiece</h1>
+                <p class="text-xl mb-8">Luxury interior design solutions in Lucknow that blend elegance with functionality</p>
+                <button class="bg-[#d9b99b] text-white px-8 py-3 rounded hover:bg-[#8b7355] transition-colors">
+                    Explore Our Work
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gradient-to-r from-red-100 to-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16 text-[#8b7355]">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card p-6 rounded-lg bg-white">
+                    <img src="img1.jpg" alt="Residential Design" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Residential Design</h3>
+                    <p class="text-gray-600">Transform your home into a personalized sanctuary with our bespoke residential design services.</p>
+                </div>
+                <div class="feature-card p-6 rounded-lg bg-white">
+                    <img src="gold.jpg" alt="Commercial Spaces" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Commercial Spaces</h3>
+                    <p class="text-gray-600">Create impressive commercial environments that boost productivity and brand image.</p>
+                </div>
+                <div class="feature-card p-6 rounded-lg bg-white">
+                    <img src="img3.jpeg" alt="Furniture Design" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Furniture Design</h3>
+                    <p class="text-gray-600">Custom furniture solutions that perfectly match your space and style preferences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gradient-to-r from-gray-100 to-red-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16 text-[#8b7355]">Our Portfolio</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <img src="img.jpg" alt="Project 1" class="w-full h-64 object-cover rounded-lg hover:opacity-75 transition-opacity">
+                <img src="img4.jpeg" alt="Project 2" class="w-full h-64 object-cover rounded-lg hover:opacity-75 transition-opacity">
+                <img src="img5.jpeg" alt="Project 3" class="w-full h-64 object-cover rounded-lg hover:opacity-75 transition-opacity">
+                <img src="img8.jpg" alt="Project 4" class="w-full h-64 object-cover rounded-lg hover:opacity-75 transition-opacity">
+                <img src="img7.jpg" alt="Project 5" class="w-full h-64 object-cover rounded-lg hover:opacity-75 transition-opacity">
+                <img src="img6.jpg" alt="Project 6" class="w-full h-64 object-cover rounded-lg hover:opacity-75 transition-opacity">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gradient-to-r from-red-100 to-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="rolls.jpg" alt="About Us" class="rounded-lg shadow-lg">
+                </div>
+                <div>
+                    <h2 class="text-4xl font-bold mb-6 text-[#8b7355]">About Us</h2>
+                    <p class="text-gray-600 mb-6">With over a decade of experience in transforming spaces across Lucknow, Elegance Interiors has established itself as a premier interior design firm. We pride ourselves on our attention to detail, commitment to quality, and ability to bring our clients' visions to life.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <span class="w-4 h-4 bg-[#d9b99b] rounded-full mr-3"></span>
+                            10+ Years of Experience
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-4 h-4 bg-[#d9b99b] rounded-full mr-3"></span>
+                            200+ Projects Completed
+                        </li>
+                        <li class="flex items-center">
+                            <span class="w-4 h-4 bg-[#d9b99b] rounded-full mr-3"></span>
+                            Award-winning Designs
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#8b7355] text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Elegance Interiors</h3>
+                    <p>Transforming spaces into extraordinary experiences</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contact</h3>
+                    <p>Gomti Nagar, Lucknow</p>
+                    <p>Uttar Pradesh, India</p>
+                    <p>Phone: +91 XXXXXXXXXX</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Hours</h3>
+                    <p>Monday - Saturday: 10:00 AM - 7:00 PM</p>
+                    <p>Sunday: By Appointment Only</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Popup -->
+    <div id="chat-popup" class="fixed bottom-4 right-4 z-50">
+        <div class="bg-white rounded-lg shadow-xl w-80" id="chat-container" style="display: block;">
+            <div class="bg-[#8b7355] text-white p-4 rounded-t-lg flex justify-between items-center">
+                <h3 class="font-semibold">Enquire for services</h3>
+                <button onclick="toggleChat()" class="text-white hover:text-gray-300">×</button>
+            </div>
+            <div class="p-4">
+                <form class="space-y-4">
+                    <div>
+                        <input type="text" placeholder="Name" class="w-full p-2 border rounded">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email" class="w-full p-2 border rounded">
+                    </div>
+                    <div>
+                        <textarea placeholder="Message" class="w-full p-2 border rounded h-24"></textarea>
+                    </div>
+                    <button type="submit" class="bg-[#d9b99b] text-white px-4 py-2 rounded w-full hover:bg-[#8b7355] transition-colors">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+        <button onclick="toggleChat()" class="bg-[#d9b99b] text-white p-4 rounded-full shadow-lg hover:bg-[#8b7355] transition-colors" id="chat-button" style="display: none;">
+            <i class="fas fa-comments text-2xl"></i>
+        </button>
+    </div>
+
+    <script>
+        function toggleChat() {
+            const container = document.getElementById('chat-container');
+            const button = document.getElementById('chat-button');
+            if (container.style.display === 'none') {
+                container.style.display = 'block';
+                button.style.display = 'none';
+            } else {
+                container.style.display = 'none';
+                button.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
